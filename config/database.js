@@ -6,6 +6,6 @@ var connection = mysql.createConnection({
   database : 'todo'
 });
 
-connection.connect();
+connection.connect()
 
 module.exports = connection
